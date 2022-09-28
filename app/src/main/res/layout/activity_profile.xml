@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Profile">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/lwd_icon"
+        />
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="238dp"
+        android:layout_height="71dp"
+        android:layout_marginTop="56dp"
+        android:orientation="vertical"
+        android:stretchColumns="1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:padding="3dip"
+                android:text="Nama"
+                android:textSize="16sp" />
+
+            <TextView
+                android:text=":"
+                android:textAlignment="center"
+                android:textSize="16sp" />
+
+            <TextView
+                android:text="Ramadhan Fahmi Habibi"
+                android:textSize="16sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="Alamat"
+                android:textSize="16sp" />
+
+            <TextView
+                android:text=":"
+                android:textAlignment="center"
+                android:textSize="16sp" />
+
+            <TextView
+                android:text="Tuban Kulon RT 02 RW 02"
+                android:textSize="16sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="Hobi"
+                android:textSize="16sp" />
+
+            <TextView
+                android:text=":"
+                android:textAlignment="center"
+                android:textSize="16sp" />
+
+            <TextView
+                android:text="Coding"
+                android:textSize="16sp" />
+        </TableRow>
+    </TableLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

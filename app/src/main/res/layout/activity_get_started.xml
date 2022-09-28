@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GetStarted"
+    android:background="@color/brown"
+    android:gravity="center"
+    android:orientation="vertical"
+    >
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/lwd_icon"
+        android:contentDescription="@string/lwd_image"/>
+
+    <TextView
+        android:id="@+id/text_hello"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome"
+        android:textSize="30sp"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_login"
+        android:layout_marginTop="20dp"
+        />
+
+</androidx.appcompat.widget.LinearLayoutCompat>
